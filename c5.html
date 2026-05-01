@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C5 Chemical energetics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #ffeaf4;  /* baby pink */
+      color: #333;
+    }
+    header {
+      background: #ffb6d9;
+      color: #4a154b;
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    nav a {
+      text-decoration: none;
+      font-size: 0.8rem;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.85);
+      color: #4a154b;
+    }
+    nav a:hover { background: #ffffff; }
+    main {
+      max-width: 960px;
+      margin: 1rem auto 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: #fff;
+      margin-bottom: 1rem;
+      padding: 1rem 1.25rem;
+      border-radius: 0.7rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border: 1px solid #ffd0e6;
+    }
+    h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #ffe0f0;
+      padding-bottom: 0.3rem;
+      font-size: 1.1rem;
+      color: #c2185b;
+    }
+    .syllus-line {
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+    .note { margin-left: 0.7rem; }
+    code {
+      background: #ffe0f0;
+      padding: 0 0.25rem;
+      border-radius: 3px;
+      font-size: 0.85em;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>C5 Chemical energetics</h1>
+  <nav>
+    <a href="index.html">Chem Home</a>
+    <a href="c1.html">C1</a>
+    <a href="c2.html">C2</a>
+    <a href="c3.html">C3</a>
+    <a href="c4.html">C4</a>
+    <a href="c5.html">C5</a>
+    <a href="c6.html">C6</a>
+    <a href="c7.html">C7</a>
+    <a href="c8.html">C8</a>
+    <a href="c9.html">C9</a>
+    <a href="c10.html">C10</a>
+    <a href="c11.html">C11</a>
+    <a href="c12.html">C12</a>
+  </nav>
+</header>
+
+<main>
+
+  <section>
+    <h2>C5.1 Exothermic and endothermic reactions</h2>
+
+    <!-- IMAGE BLOCK -->
+    <div style="text-align:center; margin:0.5rem 0 1rem 0;">
+      <img src="exothermic-endothermic.png"
+           alt="Energy profile diagrams comparing exothermic and endothermic reactions"
+           style="max-width:100%; height:auto; border-radius:0.5rem; border:1px solid #ffd0e6;">
+    </div>
+
+    <p class="syllus-line">1 State that an exothermic reaction transfers thermal energy to the surroundings leading to an increase in the temperature of the surroundings.</p>
+    <p class="note">
+      In an <strong>exothermic</strong> reaction, chemical energy stored in bonds is released as <strong>thermal (heat) energy</strong> to the surroundings.<br>
+      The surroundings (solution, thermometer, air) get <strong>hotter</strong> – their temperature <strong>increases</strong>.<br>
+      Examples: combustion of fuels, many neutralisation reactions, respiration.
+    </p>
+
+    <p class="syllus-line">2 State that an endothermic reaction takes in thermal energy from the surroundings leading to a decrease in the temperature of the surroundings.</p>
+    <p class="note">
+      In an <strong>endothermic</strong> reaction, the reacting chemicals <strong>absorb thermal energy</strong> from the surroundings.<br>
+      The surroundings get <strong>cooler</strong> – their temperature <strong>decreases</strong>.<br>
+      Examples: thermal decomposition of calcium carbonate, some dissolving processes (e.g. dissolving ammonium nitrate in water).
+    </p>
+
+    <p class="syllus-line">3 Interpret reaction pathway diagrams showing exothermic and endothermic reactions.</p>
+    <p class="note">
+      A reaction pathway (energy profile) diagram plots <strong>energy</strong> on the vertical axis and <strong>reaction progress</strong> on the horizontal axis.<br><br>
+      – For an <strong>exothermic</strong> reaction: the energy level of the <strong>products is lower</strong> than that of the reactants. The overall arrow (ΔH) points <strong>downwards</strong>.<br>
+      – For an <strong>endothermic</strong> reaction: the energy level of the <strong>products is higher</strong> than that of the reactants. The overall arrow (ΔH) points <strong>upwards</strong>.<br>
+      Both diagrams show a “hump” (the activated complex) which corresponds to the activation energy.
+    </p>
+
+    <p class="syllus-line">4 State that the transfer of thermal energy during a reaction is called the enthalpy change, ΔH, of the reaction. ΔH is negative for exothermic reactions and positive for endothermic reactions.</p>
+    <p class="note">
+      The <strong>enthalpy change</strong> (<code>ΔH</code>) is the amount of heat energy transferred during a reaction at constant pressure.<br>
+      – Exothermic: system loses heat to surroundings → <strong>ΔH is negative</strong> (ΔH &lt; 0).<br>
+      – Endothermic: system gains heat from surroundings → <strong>ΔH is positive</strong> (ΔH &gt; 0).
+    </p>
+
+    <p class="syllus-line">5 Define activation energy, E<sub>a</sub>, as the minimum energy that colliding particles must have to react.</p>
+    <p class="note">
+      The <strong>activation energy</strong> (<code>E<sub>a</sub></code>) is the <strong>minimum energy</strong> that reacting particles must have on collision in order for a reaction to occur.<br>
+      Collisions with energy below E<sub>a</sub> do not lead to reaction; only collisions with energy equal to or greater than E<sub>a</sub> are successful.
+    </p>
+
+    <p class="syllus-line">6 Draw and label reaction pathway diagrams for exothermic and endothermic reactions using information provided, to include: (a) reactants (b) products (c) overall energy change of the reaction, ΔH (d) activation energy, E<sub>a</sub>.</p>
+    <p class="note">
+      A correct diagram for either type should show:<br>
+      – Horizontal line for <strong>reactants</strong> energy.<br>
+      – Curve rising to a peak (activated complex), then falling to <strong>products</strong> energy level.<br>
+      – Arrow from reactants line up to the peak = <strong>E<sub>a</sub></strong> (activation energy).<br>
+      – Arrow between reactants and products levels = <strong>ΔH</strong> (downwards for exothermic, upwards for endothermic).<br>
+      – Products line <strong>below</strong> reactants for exothermic; <strong>above</strong> for endothermic.
+    </p>
+
+    <p class="syllus-line">7 State that bond breaking is an endothermic process and bond making is an exothermic process.</p>
+    <p class="note">
+      – <strong>Breaking</strong> chemical bonds requires energy → <strong>endothermic</strong> process.<br>
+      – <strong>Forming</strong> new chemical bonds releases energy → <strong>exothermic</strong> process.<br><br>
+      Overall ΔH depends on these two: if more energy is released by bond making than is absorbed in bond breaking, the reaction is exothermic; if more is absorbed breaking bonds than released making new ones, the reaction is endothermic.
+    </p>
+  </section>
+
+</main>
+</body>
+</html>

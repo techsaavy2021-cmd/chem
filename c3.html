@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C3 Stoichiometry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #ffeaf4;  /* baby pink */
+      color: #333;
+    }
+    header {
+      background: #ffb6d9;
+      color: #4a154b;
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    nav a {
+      text-decoration: none;
+      font-size: 0.8rem;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.85);
+      color: #4a154b;
+    }
+    nav a:hover {
+      background: #ffffff;
+    }
+    main {
+      max-width: 960px;
+      margin: 1rem auto 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: #fff;
+      margin-bottom: 1rem;
+      padding: 1rem 1.25rem;
+      border-radius: 0.7rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border: 1px solid #ffd0e6;
+    }
+    h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #ffe0f0;
+      padding-bottom: 0.3rem;
+      font-size: 1.1rem;
+      color: #c2185b;
+    }
+    .syllus-line {
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+    .note {
+      margin-left: 0.7rem;
+    }
+    code {
+      background: #ffe0f0;
+      padding: 0 0.25rem;
+      border-radius: 3px;
+      font-size: 0.85em;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>C3 Stoichiometry</h1>
+  <nav>
+    <a href="index.html">Chem Home</a>
+    <a href="c1.html">C1</a>
+    <a href="c2.html">C2</a>
+    <a href="c3.html">C3</a>
+    <a href="c4.html">C4</a>
+    <a href="c5.html">C5</a>
+    <a href="c6.html">C6</a>
+    <a href="c7.html">C7</a>
+    <a href="c8.html">C8</a>
+    <a href="c9.html">C9</a>
+    <a href="c10.html">C10</a>
+    <a href="c11.html">C11</a>
+    <a href="c12.html">C12</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- C3.1 Formulas -->
+  <section>
+    <h2>C3.1 Formulas</h2>
+
+    <p class="syllus-line">1 State the formulas of the elements and compounds named in the subject content.</p>
+    <p class="note">
+      Learn and recall correct chemical formulas for all named substances in the syllabus (e.g. H<sub>2</sub>, O<sub>2</sub>, N<sub>2</sub>, H<sub>2</sub>O, CO<sub>2</sub>, NH<sub>3</sub>, CH<sub>4</sub>, NaCl, HCl, H<sub>2</sub>SO<sub>4</sub>, NaOH, etc.).
+    </p>
+
+    <p class="syllus-line">2 Define the molecular formula of a compound as the number and type of atoms in one molecule.</p>
+    <p class="note">
+      Molecular formula shows the <strong>actual number</strong> of each type of atom in one molecule, e.g. H<sub>2</sub>O has 2 H and 1 O; C<sub>2</sub>H<sub>6</sub> has 2 C and 6 H.
+    </p>
+
+    <p class="syllus-line">3 Deduce the formula of a simple molecular compound from the relative numbers of atoms present in a model or a diagrammatic representation.</p>
+    <p class="note">
+      Count each atom in the model/diagram and write the formula, e.g. if there are 1 carbon and 4 hydrogens bonded → CH<sub>4</sub>.
+    </p>
+
+    <p class="syllus-line">4 Construct word equations to show how reactants form products.</p>
+    <p class="note">
+      Use names only, e.g. <em>magnesium + hydrochloric acid → magnesium chloride + hydrogen</em>.
+    </p>
+
+    <p class="syllus-line">5 Balance and interpret simple symbol equations, including state symbols.</p>
+    <p class="note">
+      Write formulas then adjust coefficients so each element has the same number of atoms on both sides, adding state symbols (s, l, g, aq).<br>
+      Example: 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l).
+    </p>
+
+    <p class="syllus-line">6 Deduce the formula of an ionic compound from the relative numbers of the ions present in a model or a diagrammatic representation or from the charges on the ions.</p>
+    <p class="note">
+      From charges, use “cross‑over” so total charge is zero, e.g. Na⁺ and Cl⁻ → NaCl; Mg²⁺ and Cl⁻ → MgCl<sub>2</sub>. From a model, simplify the ratio of cations to anions.
+    </p>
+
+    <p class="syllus-line">7 Construct symbol equations with state symbols, including ionic equations.</p>
+    <p class="note">
+      Write full balanced equations with (s), (l), (g), (aq). For ionic equations, show only the species that change, e.g. Cu²⁺(aq) + 2OH⁻(aq) → Cu(OH)<sub>2</sub>(s).
+    </p>
+
+    <p class="syllus-line">8 Deduce the symbol equation with state symbols for a chemical reaction, given relevant information.</p>
+    <p class="note">
+      From a description or word equation, decide on formulas, balance the equation and assign correct states using knowledge of soluble/insoluble substances and physical states.
+    </p>
+  </section>
+
+  <!-- C3.2 Relative masses of atoms and molecules -->
+  <section>
+    <h2>C3.2 Relative masses of atoms and molecules</h2>
+
+    <p class="syllus-line">1 Describe relative atomic mass, A<sub>r</sub>, as the average mass of the isotopes of an element compared to 1/12th of the mass of an atom of ¹²C.</p>
+    <p class="note">
+      A<sub>r</sub> is a weighted average of all naturally occurring isotopes of an element, using the carbon‑12 scale where the mass of ¹²C is exactly 12.
+    </p>
+
+    <p class="syllus-line">2 Define relative molecular mass, M<sub>r</sub>, as the sum of the relative atomic masses. Relative formula mass, M<sub>r</sub>, will be used for ionic compounds.</p>
+    <p class="note">
+      M<sub>r</sub> = sum of A<sub>r</sub> of all atoms in the formula.<br>
+      Examples: H<sub>2</sub>O: M<sub>r</sub> = 2×1 + 16 = 18; NaCl: M<sub>r</sub> = 23 + 35.5 = 58.5.
+    </p>
+
+    <p class="syllus-line">3 Calculate reacting masses in simple proportions (calculations will not involve the mole concept).</p>
+    <p class="note">
+      Use balanced equations to find simple mass ratios.<br>
+      Example: 2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O, if 2 g of H<sub>2</sub> reacts completely, use relative masses to find mass of water formed.
+    </p>
+  </section>
+
+  <!-- C3.3 The mole and the Avogadro constant -->
+  <section>
+    <h2>C3.3 The mole and the Avogadro constant</h2>
+
+    <p class="syllus-line">1 State that concentration can be measured in g / dm³.</p>
+    <p class="note">
+      Concentration of a solution can be expressed as grams of solute per cubic decimetre of solution (g/dm³).
+    </p>
+
+    <p class="syllus-line">2 State that the mole, mol, is the unit of amount of substance and that one mole contains 6.02 × 10²³ particles; this number is the Avogadro constant.</p>
+    <p class="note">
+      One mole of any substance contains 6.02 × 10²³ particles (atoms, ions or molecules) – the Avogadro constant.
+    </p>
+
+    <p class="syllus-line">3 Use the relationship amount of substance (mol) = mass (g) / molar mass (g / mol) to calculate: (a) amount of substance (b) mass (c) molar mass (d) relative atomic mass or relative molecular / formula mass.</p>
+    <p class="note">
+      <code>n = m / M</code> where n is moles, m is mass, M is molar mass (same value as M<sub>r</sub> in g/mol). Rearrange to find any unknown, e.g. m = nM.
+    </p>
+
+    <p class="syllus-line">4 Use the molar gas volume, taken as 24 dm³ at room temperature and pressure, r.t.p., in calculations involving gases.</p>
+    <p class="note">
+      At r.t.p., 1 mol of any gas occupies ≈ 24 dm³.<br>
+      Moles of gas = volume (dm³) / 24; volume (dm³) = moles × 24.
+    </p>
+
+    <p class="syllus-line">5 Calculate stoichiometric reacting masses, limiting reactants, volumes of gases at r.t.p., including conversion between cm³ and dm³.</p>
+    <p class="note">
+      Use the balanced equation to find mole ratios, then:<br>
+      – convert mass ↔ moles using <code>n = m / M</code>;<br>
+      – convert moles ↔ gas volume using 24 dm³ per mol;<br>
+      – identify a <strong>limiting reactant</strong> by comparing available moles with the required ratio;<br>
+      – remember: 1 dm³ = 1000 cm³.
+    </p>
+  </section>
+
+</main>
+</body>
+</html>

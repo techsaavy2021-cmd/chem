@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C4 Electrochemistry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #ffeaf4;  /* baby pink */
+      color: #333;
+    }
+    header {
+      background: #ffb6d9;
+      color: #4a154b;
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    nav a {
+      text-decoration: none;
+      font-size: 0.8rem;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.85);
+      color: #4a154b;
+    }
+    nav a:hover { background: #ffffff; }
+    main {
+      max-width: 960px;
+      margin: 1rem auto 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: #fff;
+      margin-bottom: 1rem;
+      padding: 1rem 1.25rem;
+      border-radius: 0.7rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border: 1px solid #ffd0e6;
+    }
+    h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #ffe0f0;
+      padding-bottom: 0.3rem;
+      font-size: 1.1rem;
+      color: #c2185b;
+    }
+    .syllus-line {
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+    .note { margin-left: 0.7rem; }
+    code {
+      background: #ffe0f0;
+      padding: 0 0.25rem;
+      border-radius: 3px;
+      font-size: 0.85em;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>C4 Electrochemistry</h1>
+  <nav>
+    <a href="index.html">Chem Home</a>
+    <a href="c1.html">C1</a>
+    <a href="c2.html">C2</a>
+    <a href="c3.html">C3</a>
+    <a href="c4.html">C4</a>
+    <a href="c5.html">C5</a>
+    <a href="c6.html">C6</a>
+    <a href="c7.html">C7</a>
+    <a href="c8.html">C8</a>
+    <a href="c9.html">C9</a>
+    <a href="c10.html">C10</a>
+    <a href="c11.html">C11</a>
+    <a href="c12.html">C12</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- C4.1 Electrolysis -->
+  <section>
+    <h2>C4.1 Electrolysis</h2>
+
+    <p class="syllus-line">1 Define electrolysis as the decomposition of an ionic compound, when molten or in aqueous solution, by the passage of an electric current.</p>
+    <p class="note">
+      Electrolysis is the process in which an <strong>electric current</strong> causes a <strong>chemical decomposition</strong> of an ionic compound that is either <strong>molten</strong> or <strong>dissolved in water</strong> (aqueous).  
+      The compound splits into simpler substances (elements or simpler ions).
+    </p>
+
+    <p class="syllus-line">2 Identify in simple electrolytic cells: (a) the anode as the positive electrode (b) the cathode as the negative electrode (c) the electrolyte as the molten or aqueous substance that undergoes electrolysis.</p>
+    <p class="note">
+      (a) <strong>Anode</strong>: the <strong>positive</strong> electrode, connected to the positive terminal of the power supply.<br>
+      (b) <strong>Cathode</strong>: the <strong>negative</strong> electrode, connected to the negative terminal of the power supply.<br>
+      (c) <strong>Electrolyte</strong>: the molten or aqueous ionic compound that contains the mobile ions and is decomposed during electrolysis.
+    </p>
+
+    <p class="syllus-line">3 Identify the products formed at the electrodes and describe the observations made during the electrolysis of: (a) molten lead(II) bromide (b) concentrated aqueous sodium chloride (c) dilute sulfuric acid using inert electrodes made of platinum or carbon / graphite.</p>
+    <p class="note">
+      (a) <strong>Molten lead(II) bromide, PbBr₂</strong> (inert electrodes):<br>
+      – <em>Cathode (−)</em>: Pb²⁺(l) + 2e⁻ → Pb(l). You see silvery molten lead forming at the bottom.<br>
+      – <em>Anode (+)</em>: 2Br⁻(l) → Br₂(g) + 2e⁻. Brown/orange bromine vapour appears at the anode.<br><br>
+
+      (b) <strong>Concentrated aqueous sodium chloride (brine)</strong> with inert electrodes:<br>
+      – <em>Cathode</em>: mainly water is reduced: 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq). You see bubbles of hydrogen gas.<br>
+      – <em>Anode</em>: chloride ions are oxidised: 2Cl⁻(aq) → Cl₂(g) + 2e⁻. Greenish chlorine gas with a sharp smell is produced.<br>
+      – The remaining solution contains Na⁺ and OH⁻ → it becomes aqueous <strong>sodium hydroxide</strong> (alkaline).<br><br>
+
+      (c) <strong>Dilute sulfuric acid, H₂SO₄(aq)</strong> with inert electrodes:<br>
+      – <em>Cathode</em>: 2H⁺(aq) + 2e⁻ → H₂(g). Bubbles of hydrogen gas at the cathode.<br>
+      – <em>Anode</em>: 4OH⁻(aq) → O₂(g) + 2H₂O(l) + 4e⁻. Bubbles of oxygen gas at the anode.<br>
+      – Overall, water is being electrolysed into hydrogen and oxygen.
+    </p>
+
+    <p class="syllus-line">4 Describe the transfer of charge during electrolysis: (a) the movement of electrons in the external circuit (b) the loss or gain of electrons at the electrodes (c) the movement of ions in the electrolyte.</p>
+    <p class="note">
+      (a) In the <strong>external circuit</strong>, electrons flow from the negative terminal of the power supply to the cathode, and from the anode back to the positive terminal.<br>
+      (b) At the <strong>cathode (−)</strong>, ions <strong>gain electrons</strong> from the electrode (this is <strong>reduction</strong>). At the <strong>anode (+)</strong>, ions or atoms <strong>lose electrons</strong> to the electrode (this is <strong>oxidation</strong>).<br>
+      (c) In the <strong>electrolyte</strong>: positive ions (cations) move towards the cathode to be reduced; negative ions (anions) move towards the anode to be oxidised. This ion movement completes the circuit inside the solution.
+    </p>
+
+    <p class="syllus-line">5 Identify the products formed at the electrodes and describe the observations made during the electrolysis of aqueous copper(II) sulfate using carbon / graphite electrodes and when using copper electrodes.</p>
+    <p class="note">
+      <strong>With carbon/graphite (inert) electrodes:</strong><br>
+      – <em>Cathode</em>: Cu²⁺(aq) + 2e⁻ → Cu(s). Pink/brown solid copper is deposited on the cathode surface.<br>
+      – <em>Anode</em>: 4OH⁻(aq) → O₂(g) + 2H₂O(l) + 4e⁻. Bubbles of oxygen gas form at the anode.<br>
+      – The blue colour of the CuSO₄ solution fades as Cu²⁺ ions are removed from solution.<br><br>
+
+      <strong>With copper electrodes (copper anode and copper cathode):</strong><br>
+      – <em>Cathode (pure copper)</em>: Cu²⁺(aq) + 2e⁻ → Cu(s). Copper is deposited on the cathode, so its mass increases.<br>
+      – <em>Anode (impure copper)</em>: Cu(s) → Cu²⁺(aq) + 2e⁻. Copper dissolves into solution, so the anode loses mass and impurities fall off.<br>
+      – The blue colour of the CuSO₄ solution stays almost the same because Cu²⁺ ions leaving the anode are replaced by those arriving at the cathode. This is used in <strong>purification of copper</strong>.
+    </p>
+
+    <p class="syllus-line">6 State that metals or hydrogen are formed at the cathode and that non-metals (other than hydrogen) are formed at the anode.</p>
+    <p class="note">
+      In general:<br>
+      – At the <strong>cathode (−)</strong>: <strong>metals</strong> or <strong>hydrogen</strong> gas are produced.<br>
+      – At the <strong>anode (+)</strong>: <strong>non‑metals</strong> (other than hydrogen) such as halogens (Cl₂, Br₂, I₂) or oxygen (O₂) are produced.
+    </p>
+
+    <p class="syllus-line">7 Predict the identity of the products at each electrode for the electrolysis of a binary compound in the molten state.</p>
+    <p class="note">
+      For a molten binary ionic compound (only two elements present), e.g. NaCl, MgBr₂:<br>
+      – <em>Cathode</em>: the <strong>metal cation</strong> is reduced to the <strong>metal</strong>, e.g. Na⁺ → Na, Mg²⁺ → Mg.<br>
+      – <em>Anode</em>: the <strong>non‑metal anion</strong> is oxidised to the <strong>non‑metal element</strong>, e.g. 2Cl⁻ → Cl₂, 2Br⁻ → Br₂.<br>
+      There is no water or other ions to interfere, so prediction is straightforward.
+    </p>
+
+    <p class="syllus-line">8 Construct ionic half-equations for reactions at the cathode (showing gain of electrons as a reduction reaction).</p>
+    <p class="note">
+      At the <strong>cathode</strong>, write equations showing ions <strong>gaining electrons</strong>. Examples:<br>
+      – Cu²⁺(aq) + 2e⁻ → Cu(s)<br>
+      – Pb²⁺(l) + 2e⁻ → Pb(l)<br>
+      – 2H⁺(aq) + 2e⁻ → H₂(g)<br>
+      These are all <strong>reduction</strong> half‑equations.
+    </p>
+  </section>
+
+  <!-- C4.2 Hydrogen–oxygen fuel cells -->
+  <section>
+    <h2>C4.2 Hydrogen–oxygen fuel cells</h2>
+
+    <p class="syllus-line">1 State that a hydrogen–oxygen fuel cell uses hydrogen and oxygen to produce electricity with water as the only chemical product.</p>
+    <p class="note">
+      A hydrogen–oxygen fuel cell is a device that converts the chemical energy of <strong>hydrogen</strong> and <strong>oxygen</strong> directly into <strong>electrical energy</strong>.  
+      The overall reaction in the cell is:<br>
+      2H₂(g) + O₂(g) → 2H₂O(l)  
+      The only chemical product is <strong>water</strong> (no carbon‑containing gases from the cell itself).
+    </p>
+
+    <p class="syllus-line">2 Describe the advantages and disadvantages of using hydrogen–oxygen fuel cells in comparison with gasoline / petrol engines in vehicles.</p>
+    <p class="note">
+      <strong>Advantages compared with petrol engines:</strong><br>
+      – The only emission at the point of use is <strong>water</strong> → no CO₂, CO or NOₓ from the cell, so it can help reduce air pollution and greenhouse gas emissions (depending on hydrogen source).<br>
+      – Fuel cells can be more <strong>efficient</strong> at converting chemical energy to electrical energy than combustion engines converting chemical energy to heat and then mechanical work.<br>
+      – They can provide quiet and smooth operation with fewer moving parts than an engine.<br><br>
+
+      <strong>Disadvantages:</strong><br>
+      – <strong>Hydrogen storage and transport</strong> are difficult: hydrogen is a very low‑density, flammable gas that must be stored under high pressure or as a liquid, which needs special tanks and safety systems.<br>
+      – At the moment, much hydrogen is produced from <strong>fossil fuels</strong> (e.g. by steam reforming of natural gas), which can still generate CO₂ overall.<br>
+      – Fuel cells and hydrogen infrastructure (production, refuelling stations) are currently <strong>expensive</strong> and not as widely available as petrol and diesel stations.<br>
+      – Refuelling and production require new technology and investment compared to existing petrol engine systems.
+    </p>
+  </section>
+
+</main>
+</body>
+</html>

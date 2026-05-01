@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>C2 Atoms, elements and compounds</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #ffeaf4;  /* baby pink */
+      color: #333;
+    }
+    header {
+      background: #ffb6d9;
+      color: #4a154b;
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    nav a {
+      text-decoration: none;
+      font-size: 0.8rem;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.85);
+      color: #4a154b;
+    }
+    nav a:hover {
+      background: #ffffff;
+    }
+    main {
+      max-width: 960px;
+      margin: 1rem auto 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: #fff;
+      margin-bottom: 1rem;
+      padding: 1rem 1.25rem;
+      border-radius: 0.7rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      border: 1px solid #ffd0e6;
+    }
+    h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #ffe0f0;
+      padding-bottom: 0.3rem;
+      font-size: 1.1rem;
+      color: #c2185b;
+    }
+    h3 {
+      margin-top: 0.8rem;
+      font-size: 1rem;
+      color: #ad1457;
+    }
+    .syllus-line {
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+    .note {
+      margin-left: 0.7rem;
+    }
+    code {
+      background: #ffe0f0;
+      padding: 0 0.25rem;
+      border-radius: 3px;
+      font-size: 0.85em;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>C2 Atoms, elements and compounds</h1>
+  <nav>
+    <a href="index.html">Chem Home</a>
+    <a href="c1.html">C1</a>
+    <a href="c2.html">C2</a>
+    <a href="c3.html">C3</a>
+    <a href="c4.html">C4</a>
+    <a href="c5.html">C5</a>
+    <a href="c6.html">C6</a>
+    <a href="c7.html">C7</a>
+    <a href="c8.html">C8</a>
+    <a href="c9.html">C9</a>
+    <a href="c10.html">C10</a>
+    <a href="c11.html">C11</a>
+    <a href="c12.html">C12</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- C2.1 -->
+  <section>
+    <h2>C2.1 Elements, compounds and mixtures</h2>
+
+    <p class="syllus-line">1 Describe the differences between elements, compounds and mixtures.</p>
+    <p class="note">
+      <strong>Element:</strong> pure substance with only one type of atom, cannot be chemically broken down.<br>
+      <strong>Compound:</strong> two or more elements chemically bonded in a fixed ratio, with properties different from the original elements.<br>
+      <strong>Mixture:</strong> two or more substances not chemically bonded; they keep their own properties and can be separated by physical methods.
+    </p>
+  </section>
+
+  <!-- C2.2 -->
+  <section>
+    <h2>C2.2 Atomic structure and the Periodic Table</h2>
+
+    <p class="syllus-line">1 Describe the structure of the atom as a central nucleus containing neutrons and protons, surrounded by electrons in shells.</p>
+    <p class="note">
+      The atom has a small dense <strong>nucleus</strong> containing <strong>protons</strong> and <strong>neutrons</strong>. 
+      <strong>Electrons</strong> move around the nucleus in <strong>shells</strong> (energy levels).
+    </p>
+
+    <p class="syllus-line">2 State the relative charges and relative masses of a proton, a neutron and an electron.</p>
+    <p class="note">
+      Proton: charge +1, relative mass 1.<br>
+      Neutron: charge 0, relative mass 1.<br>
+      Electron: charge −1, relative mass ≈0 (about 1/1836).
+    </p>
+
+    <p class="syllus-line">3 Define proton number / atomic number as the number of protons in the nucleus of an atom.</p>
+    <p class="note">
+      Proton (atomic) number <strong>Z</strong> = number of protons in the nucleus; it identifies the element.
+    </p>
+
+    <p class="syllus-line">4 Define mass number / nucleon number as the total number of protons and neutrons in the nucleus of an atom.</p>
+    <p class="note">
+      Mass (nucleon) number <strong>A</strong> = number of protons + number of neutrons.
+    </p>
+
+    <p class="syllus-line">5 Determine the electronic configuration of elements with proton number 1 to 20, e.g. 2,8,3.</p>
+    <p class="note">
+      Fill the shells in order: first shell holds 2 electrons, second and third hold up to 8. Examples:<br>
+      H (1): 1<br>
+      C (6): 2,4<br>
+      Na (11): 2,8,1<br>
+      Al (13): 2,8,3<br>
+      Ca (20): 2,8,8,2.
+    </p>
+
+    <p class="syllus-line">6 State that: (a) Group VIII noble gases have a full outer shell (b) the number of outer-shell electrons is equal to the group number in Groups I to VII (c) the number of occupied electron shells is equal to the period number.</p>
+    <p class="note">
+      (a) Noble gases (Group VIII / 0) have a <strong>full outer shell</strong> → very unreactive.<br>
+      (b) For Groups I–VII, <strong>group number = number of outer-shell electrons</strong> (e.g. Group II → 2 outer electrons).<br>
+      (c) <strong>Period number = number of occupied shells</strong>, e.g. Period 3 elements have three shells.
+    </p>
+  </section>
+
+  <!-- C2.3 -->
+  <section>
+    <h2>C2.3 Isotopes</h2>
+
+    <p class="syllus-line">1 Define isotopes as different atoms of the same element that have the same number of protons but different numbers of neutrons.</p>
+    <p class="note">
+      Isotopes: atoms of the same element (same proton number) but different numbers of neutrons, so different mass numbers.
+    </p>
+
+    <p class="syllus-line">2 Interpret and use symbols for atoms, e.g. ¹²₆C, and ions, e.g. ³⁵₁₇Cl⁻.</p>
+    <p class="note">
+      In ¹²₆C: 6 = Z (protons), 12 = A (protons + neutrons), so neutrons = 12 − 6 = 6.<br>
+      In ³⁵₁₇Cl⁻: protons = 17, neutrons = 35 − 17 = 18, electrons = 18 (one extra for the −1 charge).
+    </p>
+
+    <p class="syllus-line">3 State that isotopes of the same element have the same chemical properties because they have the same number of electrons and therefore the same electronic configuration.</p>
+    <p class="note">
+      Isotopes have the same electron arrangement, so they have the same chemical reactions; only some physical properties (e.g. mass, density, radioactivity) differ.
+    </p>
+  </section>
+
+  <!-- C2.4 -->
+  <section>
+    <h2>C2.4 Ions and ionic bonds</h2>
+
+    <p class="syllus-line">1 Describe the formation of positive ions, known as cations, and negative ions, known as anions.</p>
+    <p class="note">
+      Atoms can <strong>lose electrons</strong> to form positive ions (cations), usually metals, or <strong>gain electrons</strong> to form negative ions (anions), usually non-metals.
+    </p>
+
+    <p class="syllus-line">2 State that an ionic bond is a strong electrostatic attraction between oppositely charged ions.</p>
+    <p class="note">
+      Ionic bond: strong attraction between positively and negatively charged ions.
+    </p>
+
+    <p class="syllus-line">3 Describe the formation of ionic bonds between elements from Group I and Group VII, including the use of dot-and-cross diagrams.</p>
+    <p class="note">
+      Group I metal atoms lose 1 electron to form M⁺, Group VII non-metal atoms gain 1 electron to form X⁻. 
+      Example: Na (2,8,1) loses 1 e⁻ → Na⁺ (2,8); Cl (2,8,7) gains 1 e⁻ → Cl⁻ (2,8,8). Na⁺ and Cl⁻ attract to form NaCl.
+    </p>
+
+    <p class="syllus-line">4 Describe the properties of ionic compounds: (a) high melting points and boiling points (b) good electrical conductivity when aqueous or molten and poor when solid (c) generally soluble in water.</p>
+    <p class="note">
+      (a) High m.p. and b.p. because many strong ionic bonds in the giant lattice must be broken.<br>
+      (b) Conduct electricity when molten or in aqueous solution (ions are free to move), but not when solid (ions fixed in place).<br>
+      (c) Many ionic compounds are soluble in water because water molecules help separate and surround the ions.
+    </p>
+
+    <p class="syllus-line">5 Describe the formation of ionic bonds between ions of metallic and non-metallic elements, including the use of dot-and-cross diagrams.</p>
+    <p class="note">
+      In general, a metal atom loses electrons to form a positive ion, and a non-metal atom gains electrons to form a negative ion. 
+      These oppositely charged ions attract and form a giant ionic lattice (e.g. Mg²⁺ and O²⁻ in MgO).
+    </p>
+
+    <p class="syllus-line">6 Explain in terms of structure and bonding the properties of ionic compounds: (a) high melting points and boiling points (b) good electrical conductivity when aqueous or molten and poor when solid.</p>
+    <p class="note">
+      The giant lattice has alternating positive and negative ions with strong electrostatic attractions; large amounts of energy are needed to break these bonds → high m.p./b.p.<br>
+      In solids, ions cannot move, so they do not conduct; in molten/aqueous states, ions are mobile, so they conduct electricity.
+    </p>
+
+    <p class="syllus-line">7 Describe the giant lattice structure of ionic compounds as a regular arrangement of alternating positive and negative ions, exemplified by sodium chloride.</p>
+    <p class="note">
+      NaCl: a regular 3D structure where each Na⁺ is surrounded by Cl⁻ and each Cl⁻ is surrounded by Na⁺, forming a repeating pattern.
+    </p>
+  </section>
+
+  <!-- C2.5 -->
+  <section>
+    <h2>C2.5 Simple molecules and covalent bonds</h2>
+
+    <p class="syllus-line">1 State that a covalent bond is formed when a pair of electrons is shared between two atoms leading to noble gas electronic configurations.</p>
+    <p class="note">
+      Covalent bond: a shared pair of electrons; each atom achieves a full outer shell like a noble gas.
+    </p>
+
+    <p class="syllus-line">2 Describe the formation of covalent bonds in simple molecules, including H₂, Cl₂, H₂O, CH₄, NH₃ and HCl. Use dot-and-cross diagrams to show the electronic configurations in these molecules.</p>
+    <p class="note">
+      Each single bond is one shared pair. Examples: H₂ (H–H), Cl₂ (Cl–Cl), H₂O (O bonded to two H), CH₄ (C bonded to four H), NH₃ (N bonded to three H), HCl (H–Cl).
+    </p>
+
+    <p class="syllus-line">3 Describe in terms of structure and bonding the properties of simple molecular compounds: (a) low melting points and boiling points (b) poor electrical conductivity.</p>
+    <p class="note">
+      They consist of small molecules with strong covalent bonds inside each molecule but only weak forces between molecules, so they have low m.p./b.p. 
+      They have no free ions or electrons, so they do not conduct electricity.
+    </p>
+
+    <p class="syllus-line">4 Describe the formation of covalent bonds in simple molecules, including CH₃OH, C₂H₄, O₂, CO₂ and N₂. Use dot-and-cross diagrams to show the electronic configurations in these molecules.</p>
+    <p class="note">
+      Some have multiple bonds: O₂ has a double bond (O=O), N₂ has a triple bond (N≡N), C₂H₄ has a C=C double bond, CO₂ has two C=O double bonds, CH₃OH has C–H, C–O and O–H single bonds.
+    </p>
+
+    <p class="syllus-line">5 Explain in terms of structure and bonding the properties of simple molecular compounds: (a) low melting points and boiling points in terms of weak intermolecular forces (b) poor electrical conductivity.</p>
+    <p class="note">
+      Only weak intermolecular forces need to be overcome to melt or boil them → low m.p./b.p. 
+      Molecules are neutral and do not contain mobile charged particles → they are poor electrical conductors.
+    </p>
+  </section>
+
+  <!-- C2.6 -->
+  <section>
+    <h2>C2.6 Giant covalent structures</h2>
+
+    <p class="syllus-line">1 Describe the giant covalent structures of graphite and diamond.</p>
+    <p class="note">
+      Diamond: each carbon atom is bonded to four others in a 3D tetrahedral network.<br>
+      Graphite: each carbon atom is bonded to three others in flat hexagonal layers; layers are held together by weak forces.
+    </p>
+
+    <p class="syllus-line">2 Relate the structures and bonding of graphite and diamond to their uses, limited to: (a) graphite as a lubricant and as an electrode (b) diamond in cutting tools.</p>
+    <p class="note">
+      Graphite: layers can slide over each other → used as a lubricant; each carbon has a delocalised electron → conducts electricity, so used as electrodes.<br>
+      Diamond: all atoms held by strong covalent bonds → extremely hard, used in cutting tools and drills.
+    </p>
+  </section>
+
+  <!-- C2.7 -->
+  <section>
+    <h2>C2.7 Metallic bonding</h2>
+
+    <p class="syllus-line">1 Describe metallic bonding as the electrostatic attraction between the positive ions in a giant metallic lattice and a ‘sea’ of delocalised electrons.</p>
+    <p class="note">
+      Metal atoms lose outer-shell electrons to form positive ions in a lattice; their electrons become delocalised and move freely. 
+      The attraction between the positive ions and this electron sea is metallic bonding.
+    </p>
+
+    <p class="syllus-line">2 Explain in terms of structure and bonding the properties of metals: (a) good electrical conductivity (b) malleability.</p>
+    <p class="note">
+      (a) The delocalised electrons can move through the lattice and carry charge → metals are good electrical conductors.<br>
+      (b) The layers of positive ions can slide past each other while staying bonded to the electron sea → metals are malleable and ductile.
+    </p>
+  </section>
+
+</main>
+</body>
+</html>
